@@ -73,6 +73,37 @@ main{
     padding-bottom: 45px;
     width: 100%;
 }
+/* feature styles */
+.feature-title{
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+.quick-list{
+    color: #727272;
+}
+.of-our{
+    color: #131313;
+}
+.feat-last{
+    color: #FF900E;
+}
+.feature-para{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+}
+.feature-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1382px;
+    margin: 85px auto 130px auto;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
 /*  responsive media query */
 /* small device media query */
 @media screen and (max-width:576px) {
